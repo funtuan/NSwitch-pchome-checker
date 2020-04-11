@@ -23,7 +23,7 @@ setInterval(()=>{
             }
             lastQty[one.Id] = one.Qty;
         })
-        console.log(lastQty)
+        // console.log(lastQty)
     }).catch((err) => {
         console.log(err)
     });
