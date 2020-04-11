@@ -1,0 +1,27 @@
+module.exports = {
+    pchome: [
+        'DGBJGP-1900ALM5K',
+        'DGBJGP-1900AK6UX',
+        'DGBJGP-1900AK6U8',
+        'DGBJGP-1900AKTCM',
+        'DGBJFW-1900ALM6D',
+        'DGBJGP-1900AKH2T',
+        'DGBJGP-1900AKDNC',
+        'DGBJDE-1900AL790',
+        'DGBJDE-1900AL75L',
+        'DGBJDE-1900ADMKP',
+        'DGBJDE-1900ADMGM',
+        'DGBJDE-1900ADMHE',
+        'DGBJDE-1900ADMLG',
+        'DGBJDE-1900A7F5S',
+        'DGBJDE-1900A7WRN',
+        'DGBJDE-1900ADMM4',
+        'DGBJDE-1900ADMKI',
+        'DGBJDE-1900ADI1O',
+        'DGBJDE-1900ADI06',
+        'DGBJDE-1900ADI19',
+        'DGBJDE-1900AB40J',
+        'DGBJCW-1900AJVIQ',
+        'DGBJDE-1900AB40Y',
+    ]
+}
