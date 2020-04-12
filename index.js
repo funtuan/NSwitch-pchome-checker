@@ -16,19 +16,21 @@ const checkAll = async()=>{
             }
             if(lastQty[one.Id] !== one.Qty) {
                 api.iftttSellMessage(
-`NSwitch 存量改變
+`NSwitch 可購買數量改變
 ${one.Name}
-庫存從 ${lastQty[one.Id]} -> ${one.Qty}
+從 ${lastQty[one.Id]} -> ${one.Qty}
 https://24h.m.pchome.com.tw/prod/${one.Id}`
                     )
-                console.log(one.Name, '存量改變');
+                console.log(one.Name, '可購買數量改變');
             }
             lastQty[one.Id] = one.Qty;
         } catch (error) {
-            console.log(error)
+            console.log(new Date(), 'try again')
+            i--
+            await delay(5000);
         }
 
-        await delay(2000);
+        await delay(1000);
     }
 
     checkAll();
