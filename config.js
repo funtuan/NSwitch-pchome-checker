@@ -23,5 +23,7 @@ module.exports = {
         'DGBJDE-1900AB40J',
         'DGBJCW-1900AJVIQ',
         'DGBJDE-1900AB40Y',
+
+        'DGAG0H-A900AGJST',
     ]
 }
